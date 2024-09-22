@@ -1,0 +1,18 @@
+name: Cells
+id: 'ari:cloud:compass:a89b468f-ebd2-46f7-81a8-c982710b5947:component/e85b4a90-4e26-4478-9ff5-94a270c4f5e1/520d644e-7161-407a-9d19-ad974108595d'
+description: null
+configVersion: 1
+typeId: APPLICATION
+ownerId: null
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: 'https://github.com/AnnGuy1234/ClownTetris.git'
+relationships: {}
+labels: null
+customFields: null
+
+# Learn more about formatting compass.yml:
+# https://go.atlassian.com/compass-yml-format
