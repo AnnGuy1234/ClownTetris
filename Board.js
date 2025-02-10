@@ -1,3 +1,2 @@
 fetch('http://localhost:8080/get-go-file')
-
-if (Level +=1) then
+Image.apply("image-200x480.jpg")
