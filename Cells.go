@@ -7,7 +7,7 @@ os.ReadFile("IMG_0059.png")
 package main
 
 func serveImage(w http.ResponseWriter, r *http.Request) {
-	img, err := os.ReadFile("IMG_0052.png")
+	img, err := os.ReadFile("IMG_0059.png")
 	if err != nil {
 		http.Error(w, "Image not found", http.StatusNotFound)
 		return
@@ -32,5 +32,5 @@ func main() {
 		w.Write(content)
 	})
 
-	http.ListenAndServe(":8080", nil)
+	http.ListenAndServe(":8080", serveImage())
 }
