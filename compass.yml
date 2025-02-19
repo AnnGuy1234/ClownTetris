@@ -1,0 +1,19 @@
+name: Pentominoes
+id: 'ari:cloud:compass:a89b468f-ebd2-46f7-81a8-c982710b5947:component/e85b4a90-4e26-4478-9ff5-94a270c4f5e1/d393db12-3870-40b6-a164-6e0d56c2aeca'
+description: Triominoes come in 2 forms.
+configVersion: 1
+typeId: SERVICE
+ownerId: 'ari:cloud:identity::team/95d2784e-bf69-4522-bbe7-aa7cf43c3263'
+fields:
+  tier: 4
+links:
+  - name: ''
+    type: REPOSITORY
+    url: 'https://github.com/AnnGuy1234/ClownTetris'
+relationships: {}
+labels:
+  - synced-with-jsm
+customFields: null
+
+# Learn more about formatting compass.yml:
+# https://go.atlassian.com/compass-yml-format
