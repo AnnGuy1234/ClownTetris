@@ -1,3 +1,3 @@
 gofile = fetch('http://localhost:8080/get-go-file')
 Image.apply("image-200x480.jpg")
-Image:apply("IMG_0059.png")
+Image.apply("IMG_0059.png")
